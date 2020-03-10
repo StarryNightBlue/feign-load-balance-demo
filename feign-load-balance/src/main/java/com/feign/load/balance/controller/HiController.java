@@ -16,7 +16,7 @@ public class HiController {
     @Autowired
     private ScheduleServiceHi scheduleServiceHi;
 
-    @GetMapping("/hello")
+    @GetMapping("/hi")
     public String sayHello(@RequestParam String name) {
         return scheduleServiceHi.sayHiFromClientOne(name);
     }

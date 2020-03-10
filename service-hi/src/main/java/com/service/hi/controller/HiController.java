@@ -19,6 +19,6 @@ public class HiController {
 
     @GetMapping("/hi")
     public String sayHi(@RequestParam String name) {
-        return "hi " + name + "your ip.port is " + myConfig.getPort();
+        return "hi " + name + " your ip.port is " + myConfig.getPort();
     }
 }

@@ -3,7 +3,7 @@ spring:
     name: service-hi
 
 server:
-  port: 9093
+  port: 9092
 # [9092,9093...]可以多个端口进行负载均衡
 eureka:
   client:
