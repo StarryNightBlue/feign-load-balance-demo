@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: service-hi
+
+server:
+  port: 9093
+# [9092,9093...]可以多个端口进行负载均衡
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
