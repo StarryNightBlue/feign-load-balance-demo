@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
  */
 @SpringBootApplication
 @EnableEurekaClient
-@EnableFeignClients
+@EnableFeignClients({"com.feign.load.balance.feign"})
 public class FeignLoadBalanceApplication {
 
     public static void main(String[] args) {
